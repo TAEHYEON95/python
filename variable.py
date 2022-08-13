@@ -29,8 +29,15 @@
 # string += "!"
 # print ("string :", string)
 
-input("인사말을 입력하세요>")
+# string = input("인사말을 입력하세요>")
 
-string = input("인사")
-print(string)
-print(type(string))
+# print(string)
+# print(type(string))
+
+# number = input("숫자를 입력하세요 > ")
+
+# print(number)
+# print(type(number))
+
+#input() 함수는 사용자가 무엇을 입력해도 결과는 무조건 문자열 자료형이다.(str)
+
