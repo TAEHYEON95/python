@@ -55,31 +55,55 @@
 
 
 
-str_input = input("태어난 해를 입력해 주세요>")
-birth_year = int(str_input) % 12
+# str_input = input("태어난 해를 입력해 주세요>")
+# birth_year = int(str_input) % 12
 
 
-if 0 == birth_year:
-    print("원숭이 띠입니다")
-elif 1 == birth_year:
-    print("닭 띠입니다.")
-elif 2 == birth_year:
-    print("개 띠입니다.")
-elif 3 == birth_year:
-    print("돼지 띠입니다.")
-elif 4 == birth_year:
-    print("쥐 띠입니다.")
-elif 5 == birth_year:
-    print("소 띠입니다.")
-elif 6 == birth_year:
-    print("범 띠입니다.")
-elif 7 == birth_year:
-    print("토끼 띠입니다.")
-elif 8 == birth_year:
-    print("용 띠입니다.")
-elif 9 == birth_year:
-    print("뱀 띠입니다.")
-elif 10 == birth_year:
-    print("말 띠입니다.")
-elif 11 == birth_year:
-    print("양 띠입니다.")
+# if 0 == birth_year:
+#     print("원숭이 띠입니다")
+# elif 1 == birth_year:
+#     print("닭 띠입니다.")
+# elif 2 == birth_year:
+#     print("개 띠입니다.")
+# elif 3 == birth_year:
+#     print("돼지 띠입니다.")
+# elif 4 == birth_year:
+#     print("쥐 띠입니다.")
+# elif 5 == birth_year:
+#     print("소 띠입니다.")
+# elif 6 == birth_year:
+#     print("범 띠입니다.")
+# elif 7 == birth_year:
+#     print("토끼 띠입니다.")
+# elif 8 == birth_year:
+#     print("용 띠입니다.")
+# elif 9 == birth_year:
+#     print("뱀 띠입니다.")
+# elif 10 == birth_year:
+#     print("말 띠입니다.")
+# elif 11 == birth_year:
+#     print("양 띠입니다.")
+
+
+# import datetime
+
+#현재 날짜/시간을 구합니다.
+# now = datetime.datetime.now()
+
+# hello = input("입력 : ")
+
+# if hello in "안녕":
+#     print("안녕하세요")
+# elif hello in "안녕하세요":
+#     print("안녕하세요")
+# elif hello in "지금 몇 시야?":
+#     print(now.hour,"입니다.")
+# else:
+#     print(hello)
+
+input_num = int(input("정수를 입력 하세여 : "))
+
+if input_num % 2 == 0:
+    print("나누어 떨어짐")
+else:
+    print(input_num,"은 2로 나누어 떨어지는 숫자가 아닙니다.")
