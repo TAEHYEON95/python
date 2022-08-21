@@ -107,3 +107,57 @@
 #     print("나누어 떨어짐")
 # else:
 #     print(input_num,"은 2로 나누어 떨어지는 숫자가 아닙니다.")
+
+# list_a = [0,1,2,3,4,5,6,7]
+# list_a.extend(list_a)
+# list_a.append(10)
+# list_a.insert(3,0)
+# list_a.remove(3)
+# list_a.pop(3)
+# list_a.clear()
+# print(list_a)
+
+# numbers = [273, 103, 5, 32, 65, 9, 72, 800, 99]
+# for number in numbers:
+#     if 100 < number:
+#         print("- 100 이상의 수:", number)
+
+# numbers = [273, 103, 5, 32, 65, 9, 72, 800, 99]
+
+# print(len(str(numbers[0])))
+# print(len(numbers))
+
+# for number in numbers:
+#     if number % 2 == 0:
+#         print (number,"짝수 입니다.")
+#     else:
+#         print (number,"홀수 입니다.")
+
+# for number in numbers:
+#     if len(str(number)) == 1:
+#         print (number,"는 1 자릿수 입니다.")
+#     elif len(str(number)) == 2:
+#         print (number,"는 2 자릿수 입니다.")
+#     else:
+#         print (number,"는 3 자릿수 입니다.")
+
+# numbers = [1,2,3,4,5,6,7,8,9]
+# output = [[],[],[]]
+
+# for number in numbers:
+#     output[(number+2)% 3].append(number)
+# print(output)
+
+numbers = [1,2,3,4,5,6,7,8,9]
+
+for i in range(0, len(numbers) // 2):
+    j = 
+    print (f"i = {i},j = {j}")
+    numbers[j] = numbers[j] ** 2
+
+print(numbers)
+
+# for i in range(0, len(numbers) // 2):
+#     j = 
+#     print (f"i = {i},j = {j}")
+#     numbers[j] = numbers[j] ** 2
