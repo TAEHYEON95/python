@@ -101,9 +101,9 @@
 # else:
 #     print(hello)
 
-input_num = int(input("정수를 입력 하세여 : "))
+# input_num = int(input("정수를 입력 하세여 : "))
 
-if input_num % 2 == 0:
-    print("나누어 떨어짐")
-else:
-    print(input_num,"은 2로 나누어 떨어지는 숫자가 아닙니다.")
+# if input_num % 2 == 0:
+#     print("나누어 떨어짐")
+# else:
+#     print(input_num,"은 2로 나누어 떨어지는 숫자가 아닙니다.")
