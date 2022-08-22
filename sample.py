@@ -148,16 +148,53 @@
 #     output[(number+2)% 3].append(number)
 # print(output)
 
-numbers = [1,2,3,4,5,6,7,8,9]
-
-for i in range(0, len(numbers) // 2):
-    j = 
-    print (f"i = {i},j = {j}")
-    numbers[j] = numbers[j] ** 2
-
-print(numbers)
+# numbers = [1,2,3,4,5,6,7,8,9]
 
 # for i in range(0, len(numbers) // 2):
-#     j = 
+#     j = i * 2 + 1
 #     print (f"i = {i},j = {j}")
 #     numbers[j] = numbers[j] ** 2
+
+# print(numbers)
+
+# dict_a = {}
+
+# print (dict_a)
+# dict_a["name"] = "구름"
+# print(dict_a)
+
+# del dict_a["name"]
+
+# print(dict_a)
+
+# pets = [
+#     {"name": "구름", "age": 5},
+#     {"name": "초코", "age": 3},
+#     {"name": "아지", "age": 1},
+#     {"name": "호랑이", "age": 1}
+# ]
+# print("#우리 동네 애완 동물들")
+# for key in pets:
+#     print(key["name"], str(key["age"]) + "살")
+
+#다음 빈칸을 채워서 numbers 내부에 들어 있는 숫자가 몇번 등장하는지를 출력 하시요 
+# numbers = [1,3,4,2,4,5,8,5,3,2,5,6,8,9,6,4,3,1,3,3,4,5,6]
+# counter = {}
+
+# for number in numbers:
+#     if number in counter:
+#         counter[number] += 1
+#     else:
+#         counter[number] = 1
+# print (counter)
+
+character = {
+    "name":"기사",
+    "level":12
+    # "items":{"sword":"불꽃의 검", "armor":"풀플레이트"},
+    # "skill":["베기","세게 베기", "아주 세게 베기"]
+}
+
+print (character)
+for key in character:
+    print(f.{key["name"], key["level"]})
