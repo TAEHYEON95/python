@@ -190,11 +190,43 @@
 
 character = {
     "name":"기사",
-    "level":12
-    # "items":{"sword":"불꽃의 검", "armor":"풀플레이트"},
-    # "skill":["베기","세게 베기", "아주 세게 베기"]
+    "level":12,
+    "items":{"sword":"불꽃의 검", "armor":"풀플레이트"},
+    "skill":["베기","세게 베기", "아주 세게 베기"]
 }
-
-print (character)
 for key in character:
-    print(f.{key["name"], key["level"]})
+    if type(character[key]) is dict:
+        for k in character[key]:
+            print (f"{k}:{character[key][k]}")
+    elif type(character[key]) is list:
+        for i in character[key]:
+            print (f"{key} : {i}")
+    else:
+        print(f"{key} : {character[key]}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# for key in character:
+#     if type(character[key]) is dict:
+#         for k in character[key] :
+#             print("{} : {}".format(k,character[key][k]))
+#             print(f"{k} : {character[key][k]}")
+#     elif type(character[key]) is list:
+#         for i in character[key] :
+#             print(f"{key} : {i}")
+#     else:
+#         print(key,":",character[key])
