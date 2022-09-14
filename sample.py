@@ -195,14 +195,7 @@ character = {
     "skill":["베기","세게 베기", "아주 세게 베기"]
 }
 for key in character:
-    if type(character[key]) is dict:
-        for k in character[key]:
-            print (f"{k}:{character[key][k]}")
-    elif type(character[key]) is list:
-        for i in character[key]:
-            print (f"{key} : {i}")
-    else:
-        print(f"{key} : {character[key]}")
+
 
 
 
